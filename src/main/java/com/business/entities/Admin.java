@@ -12,6 +12,7 @@ public class Admin
 	
 private int adminId;
 private String adminName;
+
 private String adminEmail;	
 @Value("1234")
 private String adminPassword;

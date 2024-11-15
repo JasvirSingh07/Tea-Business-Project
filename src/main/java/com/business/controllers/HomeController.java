@@ -16,9 +16,11 @@ public class HomeController
 {
 	@Autowired
 	private ProductServices productServices;
+
 	@GetMapping("/home")
 	public String home()
 	{
+
 		return "Home";
 	}
 
@@ -39,6 +41,7 @@ public class HomeController
 	@GetMapping("/about")
 	public String about()
 	{
+
 		return "About";
 	}
 

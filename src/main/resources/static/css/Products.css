@@ -27,12 +27,12 @@ height: max-content;
 }
 span
 {
-	color: darkgreen;
+	color: dark green;
 	font-weight: bold;
 }
 #buy{
 	color: black;
-	background-color: darkgreen;
+	background-color: dark green;
 	border: 1px solid green;
 	text-decoration: none;
 	padding: 5px;

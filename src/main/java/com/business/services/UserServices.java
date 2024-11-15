@@ -53,7 +53,8 @@ public class UserServices
 	//Add User
 	public void addUser(User user)
 	{
-	this.userRepository.save(user);
+
+		this.userRepository.save(user);
 	}
 	
 	public boolean validateLoginCredentials(String email,String password)
@@ -68,7 +69,5 @@ public class UserServices
 		}
 		return false;
 	}
-	
-	
 
 }
